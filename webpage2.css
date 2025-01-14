@@ -1,0 +1,192 @@
+
+.email1{
+margin-left: 10px;
+margin-right: 40px;
+}
+.home1{
+    margin-left: 10px;
+}
+.div1 {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+  .social-media {
+    margin-left: auto; 
+  }
+.navbar-brand{
+    margin-right: 400px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.navbar-nav {
+    display: flex; 
+    gap: 20px; 
+  }
+  .form-control{
+    width: 200px;
+  }
+
+/* .carousel-caption {
+    font-style: italic;
+
+}
+h5{
+    color: red;
+}
+img{
+  opacity: 0.7;
+  width: 700px;
+  height: 500px;
+  /* margin-left: 500px; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#firstslide{
+  font-size: 50px;
+  font-style:italic;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.section1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstslide{
+  display: flex;
+  margin-left: 500px;
+} */
+.carousel-caption {
+  position: absolute; /* Keep text overlaying the image */
+  bottom: 55%; /* Adjust the position to your preference */
+  left: 40%; /* Center align horizontally */
+  text-align: center; /* Align text content in the center */
+  color: white; /* Ensure good contrast with the background */
+
+  /* text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); Add shadow for better contrast */
+  transform: translateX(-70%); /* Center align horizontally */
+  width: 80%; /* Prevent text from overflowing */
+}
+
+.carousel-item img {
+  opacity: 0.7; /* Maintain image opacity */
+  width: 700px; /* Make the image fully responsive */
+  height: 500px; /* Adjust height for consistency */
+  object-fit: cover; /* Ensure images cover the area properly */
+}
+
+#firstslide {
+  font-size: 1.5rem; /* Increase the font size for emphasis */
+  font-style: italic;
+  font-weight: bolder;
+  margin-top: 10px;
+  color:white; /* Distinct color for the first slide text */
+  
+}
+
+h5 {
+  color: #ff6666; /* Adjust the color of h5 for better readability */
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px; /* Add space above the section */
+  text-align: left;
+}
+
+.carousel-indicators button {
+  background-color: #333; /* Darken the indicator buttons */
+  opacity: 0.8;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1); /* Make navigation icons visible over dark images */
+}
+
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  margin-left: 40px;
+}
+
+.card-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-item:last-child {
+  margin-bottom: 0;
+}
+
+.icon {
+  font-size: 30px;
+  color: #ff6b35;
+  margin-right: 15px;
+}
+
+.card-content h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 14px;
+  color: #777;
+}
+.container {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.col-md-3 {
+   /* 3 columns = 25% */
+  max-width: 25%;
+}
+
+.col-md-6 {
+ /* 6 columns = 50% */
+  max-width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+}
+
+.content {
+  padding-left: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.col-md-6:last-child {
+  padding: 10px;
+  background-color: #e8e8e8;
+}
